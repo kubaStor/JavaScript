@@ -1,0 +1,34 @@
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+opis obrazka /* tekst --><br><br>
+-kiedy powstała - W 1995 roku<br><br>
+-dlaczego jest to język skryptowy - JavaScript jest przede wszystkim językiem skryptowym – to znaczy interpretowanym.<br><br>
+-gdzie jest wykonywany JS (klient lub serwer) -  Nie musi zostać skompilowany do kodu maszynowego, aby można było zobaczyć efekty jego działania. Wystarczy nam do tego przeglądarka internetowa, która ten język obsługuje – czyli w zasadzie każda z liczących się na rynku aplikacji.<br><br>
+-dlaczego jest to bezpieczne narzędzie - Ze względów bezpieczeństwa JavaScript ma znacznie ograniczone uprawnienia dostępu do zasobów komputera, przy użyciu którego przeglądana jest dana strona, a wszelkie odwołania do funkcji i obiektów wykonywane są w trakcie wykonywania programu.<br><br>
+-czy jest to język obiektowy , jeśli tak to dlaczego. - Nie <br><br>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+&lsaquo; input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen(' ')"&rsaquo;<br>
+          typ przycisku      Nazwa pzycisku   Napis na przycisku   Nazwa owieranej strony   <br>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br>
+&lsaquo; window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200"); &rsaquo;<br>
+toolbar=no -> ukrywa przyciski katalogów
+directories=no, -> ukrywa przyciski katalogów
+menubar=no, -> ukrywa menu przeglądarki
+height=280, -> ustawia wysokość okna
+width=160, -> ustawia szerokość okna
+top=200, -> ustawia położenie okna względem góry ekranu
+left=200 -> ustawia położenie okna względem lewej strony ekranu
+<-- zastąp odpowiedziami/patrz poniżej Teoria */
+<img src="obraz1.gif" />
+
+<input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+</body>
+</html>
