@@ -1,0 +1,38 @@
+<html>
+<body>
+<div style="color:green;font-size:61px;">
+<script language="JavaScript">
+var liczba1=prompt("D1 =","");
+var liczba2=prompt("G1 =","");
+var liczba3=prompt("D2 =","");
+var liczba4=prompt("G2 =","");
+var ile_secund_sto;
+var D1_sto=parseFloat(liczba1);
+var G1_sto=parseFloat(liczba2);
+var D2_sto=parseFloat(liczba3);
+var G2_sto=parseFloat(liczba4);
+if(isNaN(D1_sto)||isNaN(D2_sto)||isNaN(G1_sto)||isNaN(G2_sto))
+{
+document.write("zła liczba!");
+}
+else
+{
+	first_Seconds = (D1_sto*24+G1_sto)*3600;
+	second_Seconds = (D2_sto*24+G2_sto)*3600;
+
+	ile_secund_sto = first_Seconds-second_Seconds;
+	
+	if(ile_secund_sto<0)
+	{
+	ile_secund_sto*=-1;
+	}
+	document.write("D1 : " + D1_sto +"<br>");
+	document.write("G1 : " + G1_sto +"<br>");
+	document.write("D2 : " + D2_sto +"<br>");
+	document.write("G2 : " + G2_sto +"<br>");
+	document.write("ilość sekund= " + ile_secund_sto+"s");
+}
+</script>
+</div>
+</body>
+</html>

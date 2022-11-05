@@ -1,0 +1,25 @@
+<html>
+<body>
+<div style="color:blue;font-size:20px;">
+<script language="JavaScript">
+var liczba1=prompt("Podaj liczbe A =","");
+var liczba2=prompt("Podaj liczbe B =","");
+
+
+var A_sto=parseFloat(liczba1);
+var B_sto=parseFloat(liczba2);
+
+	wynik1 = (A_sto*A_sto*A_sto);
+    wynik2 = (3*((A_sto)*(A_sto))*B_sto);
+    wynik3 = (3*(A_sto)*((B_sto)*(B_sto)));
+    wynik4 = (B_sto*B_sto*B_sto);
+    wynik5 = (wynik1+wynik2+wynik3+wynik4);
+    
+
+	document.write("("+ A_sto +" + "+ B_sto +")^3 = "+ A_sto +"^3 + 3*(("+ A_sto + ")^2)*("+ B_sto +") + 3*("+ A_sto +")*(("+ B_sto +")^2) + "+ B_sto +"^3 = "+ wynik1 +" + "+ wynik2 +" + "+ wynik3 +" + "+ wynik4 +" ="+ wynik5 +"<br>");
+
+
+</script>
+</div>
+</body>
+</html>
