@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Przykład nr tutaj wpisz odpowiedni nume </title>
+    <script language="JavaScript">
+        function WinOpen_Stormowski_1() {
+            window.open("Grafika_1.html", "okienko", "toolbar=no,directories=no,menubar=no,height=320,width=140,top=100,left=20");
+        }
+
+    </script>
+</head>
+<body>
+    <ol type="1">
+		<li>Rodzaje okienek</li>
+			<ol type="I">
+				<li>alert – wyświetlająca okienko dialogowe z informacją i przyciskiem OK</li>
+				<li>prompt – generująca okno, w którym użytkownik może wpisać wartość, zwracaną następnie do programu</li>
+				<li>confirm służy do tego, aby użytkownik coś potwierdził (stąd nazwa confirm)</li>
+			</ol>
+			<li>
+				Konwersji zmiennych.
+				Wczytanie zmiennej z użyciem prompt wykonywane jest jako ciąg znaków dlatego konieczna jest
+				konwersji z ciągu znaków na wartości liczbowe aby wykonywac obliczenia.<br><br>
+				parseFloat(zmienna) - konwersja zmiennej do typu float<br><br>
+				parseInt(zmienna) - konwersja zmiennej do typu int (liczbowego)<br><br>
+				toString(zmienna) - konwersja zmiennej do typu łańcuchowego
+			</li>
+		<li>Typy zmiennych w Javascript</li>
+			<ol type="I">
+				<li>Number</li>
+					<ol type="a">
+						<li>Typ liczbowy</li>
+						<li>zmienna całkowite</li>
+						<li>zmiennoprzecinkowe</li>
+					</ol>	
+			</ol>
+		<li>Przy nadawaniu nazw zmiennym należy przestrzegać pewnych zasad:</li>
+			<ol type="I">
+				<li>Nazwa zmiennej musi się zaczynać od litery, znaku "$" lub "_", może zawierać tylko litery (bez polskich znaków), cyfry oraz "$" i "_"<br><br>
+					Poprawne nazwy zmiennych: zmienna1, $wynik, _rozmiar, wynik1, Rekord, $_gracz<br><br>
+					Błędne nazwy zmiennych: 1zmienna, wynik gry, wysokosc&szerokosc, wynik.rekord, &gracz, wysokość, imie+nazwisko.<br><br></li>
+				<li>
+					Wielkość liter ma znaczenie.
+					Rekord i rekord to dwie różne zmienne! Jest to bardzo częsta przyczyna błędów w kodzie
+					początkujących programistów.</li>
+				<li>Należy nie używać słów kluczowych JavaScript jako nazw zmiennych.</li>
+</ol>
+</body>
+</html>
